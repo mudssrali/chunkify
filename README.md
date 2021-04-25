@@ -51,7 +51,7 @@ const value = chunkify(["open-source", "is", "everything"], 1, true)
 Also keep in mind, if the `chunkSize is >= kvArray.length`, return value will be in form of `[[]]`
 
 ```jsx
-import chunkify from 'chunkify'
+import chunkify from '@mudssrali/chunkify'
 
 const value = chunkify([1,2,3,4], 4)
 // value === [ [1, 2, 3, 4] ]
